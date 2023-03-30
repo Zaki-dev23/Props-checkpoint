@@ -8,7 +8,7 @@ import  Profile  from './components/Profile';
 const App = ()=>{
   return (
     <div className="clapyResets root">
-      <Profile fullname="zakaria laasri" bio="James Maitland Stewart (May 20, 1908 – July 2, 1997) was an American actor and military pilot. Known for his distinctive drawl and everyman screen persona, Stewart's film career spanned 80 films from 1935 to 1991. With the strong morality he portrayed both on and off the screen, he epitomized the 'American ideal' in the twentieth century. In 1999, the American Film Institute (AFI) ranked him third on its list of the greatest American male actors." profession="webdev"> <img src={image} className="Image" alt='zakaria laasri'/> </Profile>
+      <Profile fullname="zakaria laasri" bio="ZAkaria ait laasri (Juin 20, 2000) was an Morrocain,I'm web devloper and physicien student.A Web Developer with two years of experience, specializing in HTML5, JavaScript, ReactJs, MySQL, database design,UX & UI desgin,back-end and front-end development. Adept at collaborating with dynamic teams to build high quality websites and identify opportunities to enhance the user experience..." profession="web devloper"> <img src={image} className="Image" alt='zakaria laasri'/> </Profile>
     </div>
   );
 };

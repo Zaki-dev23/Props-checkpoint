@@ -1,4 +1,11 @@
-
+.content{
+  box-shadow: 1px 1px 10px black;
+  height: 0%;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 .itSAWonderfulLife1946 {
   color: #00274a;
   font-size: 24px;
@@ -53,8 +60,6 @@
 
 .clapyResets *{
   box-sizing: border-box;
-  margin: 0;
-  padding: ;
   border: none;
   flex-shrink: 0;
   text-decoration: none;
@@ -67,15 +72,26 @@
   display: flex;
   justify-content:center;
   align-items: center;
-  min-height: 100vh;
+  height: 60vh;
   text-align: start;
 }
 
 .clapyResets{
   text-indent: 0;
-  padding: 1.5em;
+  margin-bottom: 0;
+}
+.Image{
+  width:400px;
+  height: 400px;
+  margin-top: 25%;
+}
+.textContent{
+  margin-top: 20%;
 }
 
-
-
-
+.btn {
+  padding: 5px 8px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  margin-left: 9px;
+}

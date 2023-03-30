@@ -5,10 +5,7 @@
   background-color: #e5e5e5;
   flex-basis: 100%;
   background-color: #fff;
-  box-shadow: 1px 1px 10px black;
+  overflow-y: hidden;
+    overscroll-behavior: none;
 }
-.Image{
-  padding-left: 20px;
-  width:400px;
-  height: 400px;
-}
+
